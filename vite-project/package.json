@@ -1,8 +1,11 @@
 {
-  "name": "vite-project",
+  "name": "create-guesung-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "bin": {
+    "create-guesung-app": "./bin/create-guesung-app.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
