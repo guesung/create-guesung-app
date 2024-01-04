@@ -15,7 +15,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = "https://github.com/guesung/create-guesung-app";
+const GIT_REPO = "https://github.com/guesung/boiler-plate-vite-react";
 
 if (projectName !== ".") {
   try {
